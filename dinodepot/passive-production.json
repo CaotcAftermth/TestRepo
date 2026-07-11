@@ -1,0 +1,61 @@
+{
+  "version": 2,
+  "production": [
+    {
+      "dinoType": "/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "name": "TestCycle1",
+          "intervalSeconds": 300,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawPrimeMeat.PrimalItemConsumable_RawPrimeMeat",
+              "quantityPerDino": 5,
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 0,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0.2,
+              "alternateItems": [
+                {
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Hide.PrimalItemResource_Hide",
+                  "quantityPerItem": 5,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 0
+                }
+              ],
+              "consumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dinoType": "/NoUntameables/Lightbug/Lightbug_Character_BP_Rockwell_Tameable.Lightbug_Character_BP_Rockwell_Tameable",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 300,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "/Game/PrimalEarth/Dinos/Achatina/PrimalItemResource_SnailPaste.PrimalItemResource_SnailPaste",
+              "quantityPerDino": 2,
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 0,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0,
+              "alternateItems": [],
+              "consumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
