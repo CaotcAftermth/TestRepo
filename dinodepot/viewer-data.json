@@ -1,0 +1,138 @@
+{
+  "cluster": "GG Fizz Cluster",
+  "creatures": [
+    {
+      "id": "/Game/PrimalEarth/Dinos/Giganotosaurus/Gigant_Character_BP.Gigant_Character_BP",
+      "cls": "Gigant_Character_BP",
+      "name": "Giganotosaurus",
+      "category": "Dinosaurs",
+      "icon": "🦖",
+      "info": "",
+      "chance": 1,
+      "cycles": [
+        {
+          "name": "",
+          "interval": 160,
+          "mode": "All",
+          "items": [
+            {
+              "ref": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element",
+              "qty": 5,
+              "altChance": 0,
+              "alternates": [],
+              "consumeChance": 0,
+              "consumes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/NoUntameables/Lightbug/Lightbug_Character_BP_Rockwell_Tameable.Lightbug_Character_BP_Rockwell_Tameable",
+      "cls": "Lightbug_Character_BP_Rockwell_Tameable",
+      "name": "R Glowbug",
+      "category": "No Untameables",
+      "icon": "🦕",
+      "info": "",
+      "chance": 1,
+      "cycles": [
+        {
+          "name": "",
+          "interval": 300,
+          "mode": "All",
+          "items": [
+            {
+              "ref": "/Game/PrimalEarth/Dinos/Achatina/PrimalItemResource_SnailPaste.PrimalItemResource_SnailPaste",
+              "qty": 2,
+              "altChance": 0,
+              "alternates": [],
+              "consumeChance": 0,
+              "consumes": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP",
+      "cls": "Rex_Character_BP",
+      "name": "Rex",
+      "category": "Dinosaurs",
+      "icon": "🦖",
+      "info": "",
+      "chance": 1,
+      "cycles": [
+        {
+          "name": "TestCycle1",
+          "interval": 300,
+          "mode": "All",
+          "items": [
+            {
+              "ref": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawPrimeMeat.PrimalItemConsumable_RawPrimeMeat",
+              "qty": 5,
+              "altChance": 0.2,
+              "alternates": [
+                {
+                  "ref": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Hide.PrimalItemResource_Hide",
+                  "qty": 5
+                }
+              ],
+              "consumeChance": 0,
+              "consumes": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "/Game/PrimalEarth/Dinos/Achatina/PrimalItemResource_SnailPaste.PrimalItemResource_SnailPaste",
+      "name": "Achatina Paste",
+      "category": "Resources",
+      "icon": "⛏️",
+      "info": "",
+      "producedBy": [
+        "/NoUntameables/Lightbug/Lightbug_Character_BP_Rockwell_Tameable.Lightbug_Character_BP_Rockwell_Tameable"
+      ],
+      "alternateFrom": [],
+      "consumedBy": []
+    },
+    {
+      "id": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element",
+      "name": "Element",
+      "category": "Resources",
+      "icon": "⛏️",
+      "info": "",
+      "producedBy": [
+        "/Game/PrimalEarth/Dinos/Giganotosaurus/Gigant_Character_BP.Gigant_Character_BP"
+      ],
+      "alternateFrom": [],
+      "consumedBy": []
+    },
+    {
+      "id": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Hide.PrimalItemResource_Hide",
+      "name": "Hide",
+      "category": "Resources",
+      "icon": "⛏️",
+      "info": "",
+      "producedBy": [],
+      "alternateFrom": [
+        "/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP"
+      ],
+      "consumedBy": []
+    },
+    {
+      "id": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawPrimeMeat.PrimalItemConsumable_RawPrimeMeat",
+      "name": "Raw Prime Meat",
+      "category": "Consumables",
+      "icon": "🍖",
+      "info": "",
+      "producedBy": [
+        "/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP"
+      ],
+      "alternateFrom": [],
+      "consumedBy": []
+    }
+  ]
+}
