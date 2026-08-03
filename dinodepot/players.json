@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-03T18:53:10.760Z",
+  "generatedAt": "2026-08-03T19:09:07.269Z",
   "players": [
     {
       "discordName": "qwerty",
@@ -13,21 +13,7 @@
       "notes": "",
       "profile": {
         "map": "Aberration",
-        "storedAt": "2026-08-03T18:50:31.403Z"
-      }
-    },
-    {
-      "discordName": "player2",
-      "discordId": "",
-      "steamName": "",
-      "steamId": "",
-      "gameName": "bob",
-      "playerId": "0987654",
-      "eosId": "",
-      "notes": "",
-      "profile": {
-        "map": "The Island",
-        "storedAt": "2026-08-03T18:52:25.822Z"
+        "storedAt": "2026-08-03T19:08:49.277Z"
       }
     }
   ]
