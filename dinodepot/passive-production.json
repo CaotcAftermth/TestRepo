@@ -39,6 +39,7 @@
           ]
         },
         {
+          "name": "TestCycle2",
           "intervalSeconds": 84600,
           "itemSelectMode": 0,
           "items": [
