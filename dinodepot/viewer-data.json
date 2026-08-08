@@ -195,9 +195,25 @@
         "caution": false
       },
       "dragWeight": 50,
-      "chance": 0,
-      "cycles": [],
-      "produces": false
+      "chance": 1,
+      "cycles": [
+        {
+          "name": "Test Cycle",
+          "interval": 5370,
+          "mode": "All",
+          "items": [
+            {
+              "ref": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Chitin.PrimalItemResource_Chitin",
+              "qty": 10,
+              "altChance": 0,
+              "alternates": [],
+              "consumeChance": 0,
+              "consumes": []
+            }
+          ]
+        }
+      ],
+      "produces": true
     },
     {
       "id": "/Game/ASA/Dinos/Acrocanthosaurus/Acrocanthosaurus_Character_BP.Acrocanthosaurus_Character_BP",
@@ -963,7 +979,9 @@
       "type": "Resources",
       "rarity": "",
       "stack": 100,
-      "producedBy": [],
+      "producedBy": [
+        "/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP"
+      ],
       "alternateFrom": [],
       "consumedBy": [],
       "from": {
