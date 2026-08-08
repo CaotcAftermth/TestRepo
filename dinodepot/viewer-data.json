@@ -1,13 +1,554 @@
 {
   "cluster": "GG Fizz Cluster",
+  "logo": "logo.png",
   "creatures": [
+    {
+      "id": "/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP",
+      "cls": "Achatina_Character_BP",
+      "name": "Achatina",
+      "category": "Invertebrates",
+      "icon": "🦂",
+      "img": "creatures/Achatina.png",
+      "base": "Achatina",
+      "info": "",
+      "acq": {
+        "availability": "Acquirable",
+        "inheritedFrom": "",
+        "methods": [
+          {
+            "name": "Knockout",
+            "outcome": "Direct tame",
+            "tags": [
+              "Knockout"
+            ],
+            "requirements": "",
+            "inputs": [
+              {
+                "name": "Sweet Vegetable Cake",
+                "role": "Taming food",
+                "note": ""
+              }
+            ],
+            "phases": [
+              {
+                "name": "",
+                "note": "A tamed Achatina will only eat  Sweet Vegetable Cake.",
+                "steps": [
+                  "Render the creature unconscious. ",
+                  "Once the creature is unconscious, open its inventory and feed it an Sweet Vegetable Cake by dragging food into its inventory and waiting for the creature to eat it. The food needed to tame it will vary based on the creature you are trying to tame. Keep plenty of food in the animal's inventory while taming; if the creature runs out of food, the taming bar will begin to go down until it gets more food. Force feeding them anything other than  Narcoberry or  Narcotic will fill their hunger but will not affect the taming bar, effectively making the tame take longer.",
+                  "Keep the creature unconscious throughout the process. The Unconscious bar decreases with the creature's  Torpor, and can be refilled with  Narcoberries,  Narcotic or  Bio Toxin. Narcoberries will raise torpor by 8 points over 3 seconds, Narcotics will raise it by 40 points over 16 seconds, and Bio Toxin raises it by 80, over 16 seconds. It also stops the creature's fight against the torpor in this time, so torpor will not fall in addition to the raising. The creature will not voluntarily eat these items, and so they must be force fed by hitting the use-key (E for PC) in the creatures inventory when hovering over the item. If the creature wakes up any items in its inventory will be lost."
+                ]
+              }
+            ],
+            "repeatUntil": "",
+            "completion": "Tamed",
+            "failure": "",
+            "effectiveness": "",
+            "strategy": "Since damage is significantly reduced by the shell, it is best to hit it on the soft, fleshy parts instead. If it takes enough damage, it will retreat into its shell, making it very easy to kill it before the torpor from tranquillizers can knock it out. Be mindful of how bloody the Achatina gets, and use  Shocking Tranquilizer Darts or normal  Tranquilizer Darts to minimize this risk."
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "label": "Preserver",
+          "detail": "Increases Spoilage Rates for the Following:",
+          "kind": "passive",
+          "effect": "preserver",
+          "rows": [
+            {
+              "item": {
+                "ref": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic",
+                "name": "Organic Polymer",
+                "img": "items/organic-polymer.webp",
+                "icon": "⛏️"
+              },
+              "percent": "300%",
+              "to": null,
+              "rate": "",
+              "toRate": "",
+              "note": ""
+            },
+            {
+              "item": {
+                "ref": "/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_CorruptedPolymer.PrimalItemResource_CorruptedPolymer",
+                "name": "Corrupted Nodule",
+                "img": "items/corrupted-nodule.webp",
+                "icon": "⛏️"
+              },
+              "percent": "300%",
+              "to": null,
+              "rate": "",
+              "toRate": "",
+              "note": ""
+            }
+          ]
+        },
+        {
+          "label": "Weight reduction",
+          "detail": "",
+          "kind": "passive",
+          "effect": "weight-reduction",
+          "rows": [
+            {
+              "item": {
+                "ref": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic",
+                "name": "Organic Polymer",
+                "img": "items/organic-polymer.webp",
+                "icon": "⛏️"
+              },
+              "percent": "90",
+              "to": null,
+              "rate": "",
+              "toRate": "",
+              "note": ""
+            },
+            {
+              "item": {
+                "ref": "/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_CorruptedPolymer.PrimalItemResource_CorruptedPolymer",
+                "name": "Corrupted Nodule",
+                "img": "items/corrupted-nodule.webp",
+                "icon": "⛏️"
+              },
+              "percent": "90",
+              "to": null,
+              "rate": "",
+              "toRate": "",
+              "note": ""
+            },
+            {
+              "item": {
+                "ref": "/Game/PrimalEarth/Dinos/Achatina/PrimalItemResource_SnailPaste.PrimalItemResource_SnailPaste",
+                "name": "Achatina Paste",
+                "img": "items/achatina-paste.webp",
+                "icon": "⛏️"
+              },
+              "percent": "90",
+              "to": null,
+              "rate": "",
+              "toRate": "",
+              "note": ""
+            }
+          ]
+        }
+      ],
+      "drops": {
+        "harvest": [
+          {
+            "ref": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Chitin.PrimalItemResource_Chitin",
+            "name": "Chitin",
+            "img": "items/chitin.webp",
+            "icon": "⛏️",
+            "qty": "",
+            "chance": "",
+            "rate": "",
+            "note": ""
+          },
+          {
+            "ref": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMeat.PrimalItemConsumable_RawMeat",
+            "name": "Raw Meat",
+            "img": "items/raw-meat.webp",
+            "icon": "🍖",
+            "qty": "",
+            "chance": "",
+            "rate": "",
+            "note": ""
+          }
+        ],
+        "guaranteed": [],
+        "random": [],
+        "production": [
+          {
+            "ref": "/Game/PrimalEarth/Dinos/Achatina/PrimalItemResource_SnailPaste.PrimalItemResource_SnailPaste",
+            "name": "Achatina Paste",
+            "img": "items/achatina-paste.webp",
+            "icon": "⛏️",
+            "qty": "",
+            "chance": "",
+            "rate": "1 / 1 min",
+            "note": ""
+          },
+          {
+            "ref": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic",
+            "name": "Organic Polymer",
+            "img": "items/organic-polymer.webp",
+            "icon": "⛏️",
+            "qty": "",
+            "chance": "",
+            "rate": "1 / 60 min",
+            "note": ""
+          }
+        ]
+      },
+      "maps": {
+        "origin": "The Island",
+        "spawns": [
+          "The Island",
+          "The Center",
+          "Scorched Earth",
+          "Ragnarok",
+          "Aberration",
+          "Extinction",
+          "Valguero",
+          "Genesis: Part 1",
+          "Lost Colony"
+        ],
+        "caution": false
+      },
+      "dragWeight": 50,
+      "chance": 0,
+      "cycles": [],
+      "produces": false
+    },
+    {
+      "id": "/Game/ASA/Dinos/Acrocanthosaurus/Acrocanthosaurus_Character_BP.Acrocanthosaurus_Character_BP",
+      "cls": "Acrocanthosaurus_Character_BP",
+      "name": "Acrocanthosaurus",
+      "category": "Dinosaurs",
+      "icon": "🦖",
+      "img": "creatures/Acrocanthosaurus (mod).png",
+      "base": "Acrocanthosaurus",
+      "info": "",
+      "acq": {
+        "availability": "Acquirable",
+        "inheritedFrom": "",
+        "methods": []
+      },
+      "abilities": [],
+      "drops": {
+        "harvest": [],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      },
+      "maps": {
+        "origin": "",
+        "spawns": [],
+        "caution": false
+      },
+      "dragWeight": null,
+      "chance": 0,
+      "cycles": [],
+      "produces": false
+    },
+    {
+      "id": "/Game/PrimalEarth/Dinos/Ammonite/Ammonite_Character.Ammonite_Character",
+      "cls": "Ammonite_Character",
+      "name": "Ammonite",
+      "category": "Invertebrates",
+      "icon": "🦂",
+      "img": "creatures/Ammonite.png",
+      "base": "Ammonite",
+      "info": "",
+      "acq": {
+        "availability": "Unavailable",
+        "inheritedFrom": "",
+        "methods": []
+      },
+      "abilities": [],
+      "drops": {
+        "harvest": [],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      },
+      "maps": {
+        "origin": "The Island",
+        "spawns": [
+          "The Island",
+          "The Center",
+          "Ragnarok",
+          "Valguero",
+          "Genesis: Part 1"
+        ],
+        "caution": false
+      },
+      "dragWeight": null,
+      "chance": 0,
+      "cycles": [],
+      "produces": false
+    },
+    {
+      "id": "/NoUntameables/Ammonite/Ammonite_Character_Tameable.Ammonite_Character_Tameable",
+      "cls": "Ammonite_Character_Tameable",
+      "name": "Ammonite",
+      "category": "No Untameables",
+      "icon": "🦕",
+      "img": "creatures/Ammonite.png",
+      "base": "Ammonite",
+      "info": "",
+      "acq": {
+        "availability": "Acquirable",
+        "inheritedFrom": "",
+        "methods": []
+      },
+      "abilities": [],
+      "drops": {
+        "harvest": [],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      },
+      "maps": {
+        "origin": "",
+        "spawns": [
+          "The Island",
+          "The Center",
+          "Ragnarok",
+          "Valguero",
+          "Genesis: Part 1"
+        ],
+        "caution": false
+      },
+      "dragWeight": null,
+      "chance": 0,
+      "cycles": [],
+      "produces": false
+    },
+    {
+      "id": "/Game/PrimalEarth/Dinos/Ankylo/Ankylo_Character_BP.Ankylo_Character_BP",
+      "cls": "Ankylo_Character_BP",
+      "name": "Ankylosaurus",
+      "category": "Dinosaurs",
+      "icon": "🦖",
+      "img": "creatures/Ankylosaurus.png",
+      "base": "Ankylosaurus",
+      "info": "",
+      "acq": null,
+      "abilities": [],
+      "drops": {
+        "harvest": [],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      },
+      "maps": {
+        "origin": "The Island",
+        "spawns": [],
+        "caution": false
+      },
+      "dragWeight": null,
+      "chance": 1,
+      "cycles": [
+        {
+          "name": "",
+          "interval": 160,
+          "mode": "All",
+          "items": [
+            {
+              "ref": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Metal.PrimalItemResource_Metal",
+              "qty": 10,
+              "altChance": 0.5,
+              "alternates": [
+                {
+                  "ref": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Stone.PrimalItemResource_Stone",
+                  "qty": 10
+                }
+              ],
+              "consumeChance": 1,
+              "consumes": [
+                {
+                  "ref": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Mejoberry.PrimalItemConsumable_Berry_Mejoberry",
+                  "qty": 100
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "produces": true
+    },
+    {
+      "id": "/Game/PrimalEarth/Dinos/Arthropluera/Arthro_Character_BP.Arthro_Character_BP",
+      "cls": "Arthro_Character_BP",
+      "name": "Arthropluera",
+      "category": "Invertebrates",
+      "icon": "🦂",
+      "img": "creatures/Arthropluera.png",
+      "base": "Arthropluera",
+      "info": "",
+      "acq": null,
+      "abilities": [],
+      "drops": {
+        "harvest": [],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      },
+      "maps": {
+        "origin": "The Island",
+        "spawns": [],
+        "caution": false
+      },
+      "dragWeight": null,
+      "chance": 1,
+      "cycles": [
+        {
+          "name": "",
+          "interval": 160,
+          "mode": "All",
+          "items": [
+            {
+              "ref": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumableRespecSoup.PrimalItemConsumableRespecSoup",
+              "qty": 10,
+              "altChance": 0.05,
+              "alternates": [
+                {
+                  "ref": "/Game/Aberration/CoreBlueprints/Resources/PrimalItemConsumable_NamelessVenom.PrimalItemConsumable_NamelessVenom",
+                  "qty": 5
+                }
+              ],
+              "consumeChance": 0,
+              "consumes": []
+            }
+          ]
+        }
+      ],
+      "produces": true
+    },
+    {
+      "id": "/Game/PrimalEarth/Dinos/Carcharodontosaurus/Carcha_Character_BP.Carcha_Character_BP",
+      "cls": "Carcha_Character_BP",
+      "name": "Carcharodontosaurus",
+      "category": "Dinosaurs",
+      "icon": "🦖",
+      "img": "creatures/Carcharodontosaurus.png",
+      "base": "Carcharodontosaurus",
+      "info": "",
+      "acq": {
+        "availability": "Acquirable",
+        "inheritedFrom": "",
+        "methods": [
+          {
+            "name": "Trust",
+            "outcome": "Direct tame",
+            "tags": [
+              "Trust building"
+            ],
+            "requirements": "",
+            "inputs": [
+              {
+                "name": "Element",
+                "role": "Taming food",
+                "note": ""
+              },
+              {
+                "name": "Giant Bee Honey",
+                "role": "Taming food",
+                "note": ""
+              },
+              {
+                "name": "Bug Repellant",
+                "role": "Taming food",
+                "note": ""
+              }
+            ],
+            "phases": [
+              {
+                "name": "From the wiki",
+                "note": "",
+                "steps": [
+                  "Though similar to one another, the Carcharodontosaurus is tamed not through knock-out like the Giganotosaurus, but passively through dragging fresh kills to it; appeasing the animal through offerings to build trust, showing the beast you can hunt for it, before it will allow you to hunt with it. This can be a dangerous and difficult process, as the Carcha lives in areas in which it can be surrounded by numerous wild carnivores that will attempt to eat the offering you give it before it can do so itself; Argentavis especially are a plague and a scourge to this stage. You will want to begin the taming process by eliminating any and all wild carnivores anywhere near the Carcharodontosaurus. Once this is done, you will know it has accepted your offering if it rears up and sniffs at the air, before walking over to slowly eat the kill at its leisure. The very second you see it start to sniff the air: drop the body immediately and retreat as quickly as you can by any means necessary. If your offering is not enough to completely fill the trust meter in one feeding, the Carcha will not hesitate to eat you after it's finished with your offering.",
+                  "The higher the drag weight of the offered body, the more it fills the Carcha's trust meter, which quickly degrades if not filled in one sitting. This can make trying to build trust with smaller bodies more difficult, especially since the Carcha often has trouble accepting multiple offerings in quick succession. Once trust is established with the Carcharodontosaurus, it will allow the survivor to climb aboard and give them the chance to show they are worthy to guide its bloodlust. This will begin a short window of time in which you are allowed to ride and command the wild Carcha, before either taming is completed, or you are bucked off (600 second initially). You will get booted off the back at certain intervals of taming (every 20% for a lvl 150 with 1x taming rates, servers with higher taming rates reduce or eliminate the frequency in which you are bucked off). If you are bucked off before reaching a taming interval this will result in a loss of taming effectiveness. If you are bucked off its back, you must repeat the steps of offering it corpses, before it will allow you to re-mount and continue the taming process. Taming is progressed through landing killing blows on prey while riding the Carcha, but beware that while doing this, any damage the Carcha takes during will lower the taming effectiveness, resulting in lower bonus levels once taming is completed. Focus on prey you know has less of a chance of successfully retaliating and damaging the Carcha. When taming is completed, you will fall off the Carcha's back, and riding it from then on will require its saddle.",
+                  "Listed below are short tips and strategies to consider that might help ease the difficulty of the task of taming the Carcharodontosaurus:",
+                  "Console vs PC: On the PC version of the game, your mount is capable of carrying bodies for you, bodies that are too big for humans to drag by hand, which massively alleviates the difficulty of offering the Carcha corpses. Console does not have this luxury, so either more intensive efforts or alternative strategies must be taken into consideration.",
+                  "PvE vs PvP: It can actually be more difficult to tame a Carcha on PvE settings than PvP. On PvP settings, you can release baby creatures from Cryopod, unclaim, slaughter, and then offer them to the Carcha. The best strategy is to utilize baby Yutyrannus or a baby Rex, which have the required drag weight to fill the trust meter in one go, and whose corpses are still able to be dragged by the player in their infancy. You can also use unclaimed dinos with high maximum health like Diplodocus as fodder for the riding segment of the taming process, allowing for taming to be done in a very controlled environment. PvE settings prevent this strategy, unless the Disable Friendly Fire setting is disabled. Be aware that you can still use your babies as sacrifices to fill its trust meter by letting the babies starve to death even with Friendly Fire disabled.",
+                  "Flyer Platform Unaligned Basing: If this setting is enabled, a Quetzal with a platform saddle may be used with the above strategy. With a partially closed 'slaughter box' built on its back to prevent losing your bait, you can position a flying Quetzal above the wild Carcha, and utilize the baby Yutyrannus and Cryopod technique, without putting yourself in danger of being attacked by the Carcha; dragging the slaughtered corpse to the edge of the platform, waiting for the sniffing animation, then dropping the bait. Even after the Carcha allows you on its back, the Quetzal can be set to follow and function as a flying safety net to escape to if the Carcha bucks you off its back. This is perhaps the easiest and safest strategy to employ.",
+                  "Trapping: Building a trap to hold the Carcha in a safe and controllable area for the trust feeding segment presents issues. Due to the dino AI, the Carcha often has difficulties accepting offered bodies when it is confined by structures, and even after it has been freed from them. This can outright ruin the taming process, though exiting the Carcha's render distance and returning has been known to fix this issue. Results vary, use traps at your own discretion, you have been warned. Trapping does however function as a good means of safely containing the Carcha in one location, if you have to abandon the taming process, and need to come back another time.",
+                  "Equipment: Bringing a few of these things along can help in the taming process, primarily by keeping you alive if your trust food isn't good enough to fill the meter in one feeding, or the Carcha bucks you off. A full suit of Tek Armor fueled up with Element is probably the best escape option for both the trust feeding and buck-off scenarios; quickly able to catapult you up into the air with a jetpack thrust and get you out of range from the Carcha's bites. A Sinomacrops can do this as well, but lacks the speed of the Tek Pack's thruster, and is the less safe option. As a distraction, Giant Bee Honey can be dropped from the tool bar to save your skin, and Bug Repellant can be used to lower the Carcha's aggression range against you."
+                ]
+              }
+            ],
+            "repeatUntil": "",
+            "completion": "",
+            "failure": "",
+            "effectiveness": "",
+            "strategy": ""
+          }
+        ]
+      },
+      "abilities": [],
+      "drops": {
+        "harvest": [],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      },
+      "maps": {
+        "origin": "The Island",
+        "spawns": [],
+        "caution": false
+      },
+      "dragWeight": null,
+      "chance": 0,
+      "cycles": [],
+      "produces": false
+    },
+    {
+      "id": "/NoUntameables/Deathworm/Deathworm_Character_BP_Tameable.Deathworm_Character_BP_Tameable",
+      "cls": "Deathworm_Character_BP_Tameable",
+      "name": "Deathworm",
+      "category": "No Untameables",
+      "icon": "🦕",
+      "img": "creatures/Deathworm.png",
+      "base": "Deathworm",
+      "info": "",
+      "acq": null,
+      "abilities": [],
+      "drops": {
+        "harvest": [],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      },
+      "maps": {
+        "origin": "",
+        "spawns": [],
+        "caution": false
+      },
+      "dragWeight": null,
+      "chance": 1,
+      "cycles": [
+        {
+          "name": "",
+          "interval": 160,
+          "mode": "All",
+          "items": [
+            {
+              "ref": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BeerJarAlt.PrimalItemConsumable_BeerJarAlt",
+              "qty": 100,
+              "altChance": 0,
+              "alternates": [],
+              "consumeChance": 0,
+              "consumes": []
+            }
+          ]
+        }
+      ],
+      "produces": true
+    },
     {
       "id": "/Game/PrimalEarth/Dinos/Giganotosaurus/Gigant_Character_BP.Gigant_Character_BP",
       "cls": "Gigant_Character_BP",
       "name": "Giganotosaurus",
       "category": "Dinosaurs",
       "icon": "🦖",
+      "img": "creatures/Giganotosaurus.png",
+      "base": "Giganotosaurus",
       "info": "",
+      "acq": null,
+      "abilities": [],
+      "drops": {
+        "harvest": [],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      },
+      "maps": {
+        "origin": "The Island",
+        "spawns": [],
+        "caution": false
+      },
+      "dragWeight": null,
       "chance": 1,
       "cycles": [
         {
@@ -25,7 +566,8 @@
             }
           ]
         }
-      ]
+      ],
+      "produces": true
     },
     {
       "id": "/NoUntameables/Lightbug/Lightbug_Character_BP_Rockwell_Tameable.Lightbug_Character_BP_Rockwell_Tameable",
@@ -33,7 +575,23 @@
       "name": "R Glowbug",
       "category": "No Untameables",
       "icon": "🦕",
+      "img": "creatures/Glowbug.png",
+      "base": "Glowbug",
       "info": "",
+      "acq": null,
+      "abilities": [],
+      "drops": {
+        "harvest": [],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      },
+      "maps": {
+        "origin": "",
+        "spawns": [],
+        "caution": false
+      },
+      "dragWeight": null,
       "chance": 1,
       "cycles": [
         {
@@ -51,7 +609,8 @@
             }
           ]
         }
-      ]
+      ],
+      "produces": true
     },
     {
       "id": "/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP",
@@ -59,7 +618,57 @@
       "name": "Rex",
       "category": "Dinosaurs",
       "icon": "🦖",
+      "img": "creatures/Rex.png",
+      "base": "Rex",
       "info": "",
+      "acq": {
+        "availability": "Acquirable",
+        "inheritedFrom": "",
+        "methods": [
+          {
+            "name": "Knockout tame",
+            "outcome": "Direct tame",
+            "tags": [
+              "Knockout"
+            ],
+            "requirements": "",
+            "inputs": [
+              {
+                "name": "Exceptional Kibble",
+                "role": "Taming food",
+                "note": "Preferred Kibble"
+              }
+            ],
+            "phases": [
+              {
+                "name": "Knockout",
+                "note": "",
+                "steps": [
+                  "Can only be knocked out via Shocking Tranquilizer Dart"
+                ]
+              }
+            ],
+            "repeatUntil": "",
+            "completion": "",
+            "failure": "",
+            "effectiveness": "",
+            "strategy": ""
+          }
+        ]
+      },
+      "abilities": [],
+      "drops": {
+        "harvest": [],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      },
+      "maps": {
+        "origin": "The Island",
+        "spawns": [],
+        "caution": false
+      },
+      "dragWeight": 550,
       "chance": 1,
       "cycles": [
         {
@@ -77,12 +686,180 @@
                   "qty": 5
                 }
               ],
-              "consumeChance": 0,
-              "consumes": []
+              "consumeChance": 1,
+              "consumes": [
+                {
+                  "ref": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaCarno.PrimalItemResource_ApexDrop_AlphaCarno",
+                  "qty": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "",
+          "interval": 84600,
+          "mode": "All",
+          "items": [
+            {
+              "ref": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Rex.PrimalItemResource_ApexDrop_Rex",
+              "qty": 2,
+              "altChance": 0.01,
+              "alternates": [
+                {
+                  "ref": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaRex.PrimalItemResource_ApexDrop_AlphaRex",
+                  "qty": 1
+                }
+              ],
+              "consumeChance": 1,
+              "consumes": [
+                {
+                  "ref": "/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Rex.PrimalItemConsumable_Egg_Rex",
+                  "qty": 1
+                }
+              ]
             }
           ]
         }
-      ]
+      ],
+      "produces": true
+    },
+    {
+      "id": "/Game/Extinction/Dinos/Scout/Scout_Character_BP.Scout_Character_BP",
+      "cls": "Scout_Character_BP",
+      "name": "Scout",
+      "category": "Fantasy Creatures",
+      "icon": "🦕",
+      "img": "creatures/Scout.png",
+      "base": "Scout",
+      "info": "",
+      "acq": {
+        "availability": "Unavailable",
+        "inheritedFrom": "",
+        "methods": [
+          {
+            "name": "Taming",
+            "outcome": "",
+            "tags": [],
+            "requirements": "",
+            "inputs": [],
+            "phases": [
+              {
+                "name": "Process",
+                "note": "",
+                "steps": [
+                  "Cannot be \"tamed\", only built."
+                ]
+              }
+            ],
+            "repeatUntil": "",
+            "completion": "",
+            "failure": "",
+            "effectiveness": "",
+            "strategy": ""
+          }
+        ]
+      },
+      "abilities": [],
+      "drops": {
+        "harvest": [],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      },
+      "maps": {
+        "origin": "Extinction",
+        "spawns": [],
+        "caution": false
+      },
+      "dragWeight": 149,
+      "chance": 0,
+      "cycles": [],
+      "produces": false
+    },
+    {
+      "id": "/Game/PrimalEarth/Dinos/Rex/BionicRex_Character_BP.BionicRex_Character_BP",
+      "cls": "BionicRex_Character_BP",
+      "name": "Tek Rex",
+      "category": "Tek Creatures",
+      "icon": "🦕",
+      "img": "creatures/Rex.png",
+      "base": "Rex",
+      "info": "",
+      "acq": {
+        "availability": "Acquirable",
+        "inheritedFrom": "",
+        "methods": [
+          {
+            "name": "Knockout tame",
+            "outcome": "Direct tame",
+            "tags": [
+              "Knockout"
+            ],
+            "requirements": "",
+            "inputs": [
+              {
+                "name": "Exceptional Kibble",
+                "role": "Taming food",
+                "note": "Preferred Kibble"
+              }
+            ],
+            "phases": [],
+            "repeatUntil": "",
+            "completion": "",
+            "failure": "",
+            "effectiveness": "",
+            "strategy": ""
+          }
+        ]
+      },
+      "abilities": [],
+      "drops": {
+        "harvest": [
+          {
+            "ref": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Electronics.PrimalItemResource_Electronics",
+            "name": "Electronics",
+            "img": "items/electronics.webp",
+            "icon": "⛏️",
+            "qty": "",
+            "chance": "",
+            "rate": "",
+            "note": ""
+          },
+          {
+            "ref": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Oil.PrimalItemResource_Oil",
+            "name": "Oil",
+            "img": "items/oil.webp",
+            "icon": "⛏️",
+            "qty": "",
+            "chance": "",
+            "rate": "",
+            "note": ""
+          },
+          {
+            "ref": "/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_ElementDust.PrimalItemResource_ElementDust",
+            "name": "Element Dust",
+            "img": "items/element-dust.webp",
+            "icon": "⛏️",
+            "qty": "",
+            "chance": "",
+            "rate": "",
+            "note": ""
+          }
+        ],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      },
+      "maps": {
+        "origin": "The Island",
+        "spawns": [],
+        "caution": false
+      },
+      "dragWeight": 550,
+      "chance": 0,
+      "cycles": [],
+      "produces": false
     }
   ],
   "items": [
@@ -91,48 +868,442 @@
       "name": "Achatina Paste",
       "category": "Resources",
       "icon": "⛏️",
+      "img": "items/achatina-paste.webp",
       "info": "",
+      "type": "Resources",
+      "rarity": "",
+      "stack": 100,
       "producedBy": [
         "/NoUntameables/Lightbug/Lightbug_Character_BP_Rockwell_Tameable.Lightbug_Character_BP_Rockwell_Tameable"
       ],
       "alternateFrom": [],
-      "consumedBy": []
+      "consumedBy": [],
+      "from": {
+        "harvest": [],
+        "guaranteed": [],
+        "random": [],
+        "production": [
+          "/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP"
+        ]
+      }
+    },
+    {
+      "id": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaCarno.PrimalItemResource_ApexDrop_AlphaCarno",
+      "name": "Alpha Carnotaurus Arm",
+      "category": "Artifacts",
+      "icon": "🏺",
+      "img": "items/alpha-carnotaurus-arm.webp",
+      "info": "",
+      "type": "Artifacts",
+      "rarity": "",
+      "stack": 100,
+      "producedBy": [],
+      "alternateFrom": [],
+      "consumedBy": [
+        "/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP"
+      ],
+      "from": {
+        "harvest": [],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      }
+    },
+    {
+      "id": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaRex.PrimalItemResource_ApexDrop_AlphaRex",
+      "name": "Alpha Tyrannosaur Tooth",
+      "category": "Artifacts",
+      "icon": "🏺",
+      "img": "items/alpha-tyrannosaur-tooth.webp",
+      "info": "",
+      "type": "Artifacts",
+      "rarity": "",
+      "stack": 100,
+      "producedBy": [],
+      "alternateFrom": [
+        "/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP"
+      ],
+      "consumedBy": [],
+      "from": {
+        "harvest": [],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      }
+    },
+    {
+      "id": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BeerJarAlt.PrimalItemConsumable_BeerJarAlt",
+      "name": "Beer Jar",
+      "category": "Consumables",
+      "icon": "🍖",
+      "img": "items/beer-jar.webp",
+      "info": "",
+      "type": "Consumables",
+      "rarity": "",
+      "stack": 1,
+      "producedBy": [
+        "/NoUntameables/Deathworm/Deathworm_Character_BP_Tameable.Deathworm_Character_BP_Tameable"
+      ],
+      "alternateFrom": [],
+      "consumedBy": [],
+      "from": {
+        "harvest": [],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      }
+    },
+    {
+      "id": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Chitin.PrimalItemResource_Chitin",
+      "name": "Chitin",
+      "category": "Resources",
+      "icon": "⛏️",
+      "img": "items/chitin.webp",
+      "info": "",
+      "type": "Resources",
+      "rarity": "",
+      "stack": 100,
+      "producedBy": [],
+      "alternateFrom": [],
+      "consumedBy": [],
+      "from": {
+        "harvest": [
+          "/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP"
+        ],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      }
+    },
+    {
+      "id": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Electronics.PrimalItemResource_Electronics",
+      "name": "Electronics",
+      "category": "Resources",
+      "icon": "⛏️",
+      "img": "items/electronics.webp",
+      "info": "",
+      "type": "Resources",
+      "rarity": "",
+      "stack": 100,
+      "producedBy": [],
+      "alternateFrom": [],
+      "consumedBy": [],
+      "from": {
+        "harvest": [
+          "/Game/PrimalEarth/Dinos/Rex/BionicRex_Character_BP.BionicRex_Character_BP"
+        ],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      }
     },
     {
       "id": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element",
       "name": "Element",
       "category": "Resources",
       "icon": "⛏️",
+      "img": "items/element.webp",
       "info": "",
+      "type": "Resources",
+      "rarity": "",
+      "stack": 100,
       "producedBy": [
         "/Game/PrimalEarth/Dinos/Giganotosaurus/Gigant_Character_BP.Gigant_Character_BP"
       ],
       "alternateFrom": [],
-      "consumedBy": []
+      "consumedBy": [],
+      "from": {
+        "harvest": [],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      }
+    },
+    {
+      "id": "/Game/Extinction/CoreBlueprints/Resources/PrimalItemResource_ElementDust.PrimalItemResource_ElementDust",
+      "name": "Element Dust",
+      "category": "Resources",
+      "icon": "⛏️",
+      "img": "items/element-dust.webp",
+      "info": "",
+      "type": "Resources",
+      "rarity": "",
+      "stack": 1000,
+      "producedBy": [],
+      "alternateFrom": [],
+      "consumedBy": [],
+      "from": {
+        "harvest": [
+          "/Game/PrimalEarth/Dinos/Rex/BionicRex_Character_BP.BionicRex_Character_BP"
+        ],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      }
     },
     {
       "id": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Hide.PrimalItemResource_Hide",
       "name": "Hide",
       "category": "Resources",
       "icon": "⛏️",
+      "img": "items/hide.webp",
       "info": "",
+      "type": "Resources",
+      "rarity": "",
+      "stack": 200,
       "producedBy": [],
       "alternateFrom": [
         "/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP"
       ],
-      "consumedBy": []
+      "consumedBy": [],
+      "from": {
+        "harvest": [],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      }
+    },
+    {
+      "id": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Mejoberry.PrimalItemConsumable_Berry_Mejoberry",
+      "name": "Mejoberry",
+      "category": "Consumables",
+      "icon": "🍖",
+      "img": "items/mejoberry.webp",
+      "info": "",
+      "type": "Consumables",
+      "rarity": "",
+      "stack": 100,
+      "producedBy": [],
+      "alternateFrom": [],
+      "consumedBy": [
+        "/Game/PrimalEarth/Dinos/Ankylo/Ankylo_Character_BP.Ankylo_Character_BP"
+      ],
+      "from": {
+        "harvest": [],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      }
+    },
+    {
+      "id": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Metal.PrimalItemResource_Metal",
+      "name": "Metal",
+      "category": "Resources",
+      "icon": "⛏️",
+      "img": "items/metal.webp",
+      "info": "",
+      "type": "Resources",
+      "rarity": "",
+      "stack": 200,
+      "producedBy": [
+        "/Game/PrimalEarth/Dinos/Ankylo/Ankylo_Character_BP.Ankylo_Character_BP"
+      ],
+      "alternateFrom": [],
+      "consumedBy": [],
+      "from": {
+        "harvest": [],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      }
+    },
+    {
+      "id": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumableRespecSoup.PrimalItemConsumableRespecSoup",
+      "name": "Mindwipe Tonic",
+      "category": "Consumables",
+      "icon": "🍖",
+      "img": "items/mindwipe-tonic.webp",
+      "info": "",
+      "type": "Consumables",
+      "rarity": "",
+      "stack": 100,
+      "producedBy": [
+        "/Game/PrimalEarth/Dinos/Arthropluera/Arthro_Character_BP.Arthro_Character_BP"
+      ],
+      "alternateFrom": [],
+      "consumedBy": [],
+      "from": {
+        "harvest": [],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      }
+    },
+    {
+      "id": "/Game/Aberration/CoreBlueprints/Resources/PrimalItemConsumable_NamelessVenom.PrimalItemConsumable_NamelessVenom",
+      "name": "Nameless Venom",
+      "category": "Consumables",
+      "icon": "🍖",
+      "img": "items/nameless-venom.webp",
+      "info": "",
+      "type": "Consumables",
+      "rarity": "",
+      "stack": 1,
+      "producedBy": [],
+      "alternateFrom": [
+        "/Game/PrimalEarth/Dinos/Arthropluera/Arthro_Character_BP.Arthro_Character_BP"
+      ],
+      "consumedBy": [],
+      "from": {
+        "harvest": [],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      }
+    },
+    {
+      "id": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Oil.PrimalItemResource_Oil",
+      "name": "Oil",
+      "category": "Resources",
+      "icon": "⛏️",
+      "img": "items/oil.webp",
+      "info": "",
+      "type": "Resources",
+      "rarity": "",
+      "stack": 100,
+      "producedBy": [],
+      "alternateFrom": [],
+      "consumedBy": [],
+      "from": {
+        "harvest": [
+          "/Game/PrimalEarth/Dinos/Rex/BionicRex_Character_BP.BionicRex_Character_BP"
+        ],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      }
+    },
+    {
+      "id": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Polymer_Organic.PrimalItemResource_Polymer_Organic",
+      "name": "Organic Polymer",
+      "category": "Resources",
+      "icon": "⛏️",
+      "img": "items/organic-polymer.webp",
+      "info": "",
+      "type": "Resources",
+      "rarity": "",
+      "stack": 20,
+      "producedBy": [],
+      "alternateFrom": [],
+      "consumedBy": [],
+      "from": {
+        "harvest": [],
+        "guaranteed": [],
+        "random": [],
+        "production": [
+          "/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP"
+        ]
+      }
+    },
+    {
+      "id": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawMeat.PrimalItemConsumable_RawMeat",
+      "name": "Raw Meat",
+      "category": "Consumables",
+      "icon": "🍖",
+      "img": "items/raw-meat.webp",
+      "info": "",
+      "type": "Consumables",
+      "rarity": "",
+      "stack": 40,
+      "producedBy": [],
+      "alternateFrom": [],
+      "consumedBy": [],
+      "from": {
+        "harvest": [
+          "/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP"
+        ],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      }
     },
     {
       "id": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_RawPrimeMeat.PrimalItemConsumable_RawPrimeMeat",
       "name": "Raw Prime Meat",
       "category": "Consumables",
       "icon": "🍖",
+      "img": "items/raw-prime-meat.webp",
       "info": "",
+      "type": "Consumables",
+      "rarity": "",
+      "stack": 1,
       "producedBy": [
         "/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP"
       ],
       "alternateFrom": [],
-      "consumedBy": []
+      "consumedBy": [],
+      "from": {
+        "harvest": [],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      }
+    },
+    {
+      "id": "/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Rex.PrimalItemConsumable_Egg_Rex",
+      "name": "Rex Egg",
+      "category": "Eggs",
+      "icon": "🥚",
+      "img": "items/rex-egg.webp",
+      "info": "",
+      "type": "Eggs",
+      "rarity": "",
+      "stack": 100,
+      "producedBy": [],
+      "alternateFrom": [],
+      "consumedBy": [
+        "/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP"
+      ],
+      "from": {
+        "harvest": [],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      }
+    },
+    {
+      "id": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Stone.PrimalItemResource_Stone",
+      "name": "Stone",
+      "category": "Resources",
+      "icon": "⛏️",
+      "img": "items/stone.webp",
+      "info": "",
+      "type": "Resources",
+      "rarity": "",
+      "stack": 100,
+      "producedBy": [],
+      "alternateFrom": [
+        "/Game/PrimalEarth/Dinos/Ankylo/Ankylo_Character_BP.Ankylo_Character_BP"
+      ],
+      "consumedBy": [],
+      "from": {
+        "harvest": [],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      }
+    },
+    {
+      "id": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Rex.PrimalItemResource_ApexDrop_Rex",
+      "name": "Tyrannosaurus Arm",
+      "category": "Artifacts",
+      "icon": "🏺",
+      "img": "items/tyrannosaurus-arm.webp",
+      "info": "",
+      "type": "Artifacts",
+      "rarity": "",
+      "stack": 100,
+      "producedBy": [
+        "/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP"
+      ],
+      "alternateFrom": [],
+      "consumedBy": [],
+      "from": {
+        "harvest": [],
+        "guaranteed": [],
+        "random": [],
+        "production": []
+      }
     }
   ]
 }
