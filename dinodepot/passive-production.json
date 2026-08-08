@@ -26,8 +26,47 @@
                 }
               ],
               "consumesSelectMode": 0,
-              "consumesItemsChance": 0,
-              "consumesItems": []
+              "consumesItemsChance": 1,
+              "consumesItems": [
+                {
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaCarno.PrimalItemResource_ApexDrop_AlphaCarno",
+                  "quantityPerItem": 1,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "intervalSeconds": 84600,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_Rex.PrimalItemResource_ApexDrop_Rex",
+              "quantityPerDino": 2,
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 0,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0.01,
+              "alternateItems": [
+                {
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_ApexDrop_AlphaRex.PrimalItemResource_ApexDrop_AlphaRex",
+                  "quantityPerItem": 1,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 0
+                }
+              ],
+              "consumesSelectMode": 0,
+              "consumesItemsChance": 1,
+              "consumesItems": [
+                {
+                  "bpPath": "/Game/PrimalEarth/Test/PrimalItemConsumable_Egg_Rex.PrimalItemConsumable_Egg_Rex",
+                  "quantityPerItem": 1,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 0
+                }
+              ]
             }
           ]
         }
@@ -49,6 +88,123 @@
               "alternateSelectMode": 0,
               "alternateItemsChance": 0,
               "alternateItems": [],
+              "consumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dinoType": "/Game/PrimalEarth/Dinos/Giganotosaurus/Gigant_Character_BP.Gigant_Character_BP",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 160,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Element.PrimalItemResource_Element",
+              "quantityPerDino": 5,
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 0,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0,
+              "alternateItems": [],
+              "consumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dinoType": "/Game/PrimalEarth/Dinos/Ankylo/Ankylo_Character_BP.Ankylo_Character_BP",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 160,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Metal.PrimalItemResource_Metal",
+              "quantityPerDino": 10,
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 0,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0.5,
+              "alternateItems": [
+                {
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Stone.PrimalItemResource_Stone",
+                  "quantityPerItem": 10,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 0
+                }
+              ],
+              "consumesSelectMode": 0,
+              "consumesItemsChance": 1,
+              "consumesItems": [
+                {
+                  "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_Berry_Mejoberry.PrimalItemConsumable_Berry_Mejoberry",
+                  "quantityPerItem": 100,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dinoType": "/NoUntameables/Deathworm/Deathworm_Character_BP_Tameable.Deathworm_Character_BP_Tameable",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 160,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/PrimalItemConsumable_BeerJarAlt.PrimalItemConsumable_BeerJarAlt",
+              "quantityPerDino": 100,
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 0,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0,
+              "alternateItems": [],
+              "consumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dinoType": "/Game/PrimalEarth/Dinos/Arthropluera/Arthro_Character_BP.Arthro_Character_BP",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "intervalSeconds": 160,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "/Game/PrimalEarth/CoreBlueprints/Items/Consumables/BaseBPs/PrimalItemConsumableRespecSoup.PrimalItemConsumableRespecSoup",
+              "quantityPerDino": 10,
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 0,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0.05,
+              "alternateItems": [
+                {
+                  "bpPath": "/Game/Aberration/CoreBlueprints/Resources/PrimalItemConsumable_NamelessVenom.PrimalItemConsumable_NamelessVenom",
+                  "quantityPerItem": 5,
+                  "maxQuantityPerCycle": 0,
+                  "maxQuantityInTerminal": 0
+                }
+              ],
               "consumesSelectMode": 0,
               "consumesItemsChance": 0,
               "consumesItems": []
