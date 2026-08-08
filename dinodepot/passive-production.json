@@ -212,6 +212,31 @@
           ]
         }
       ]
+    },
+    {
+      "dinoType": "/Game/PrimalEarth/Dinos/Achatina/Achatina_Character_BP.Achatina_Character_BP",
+      "chanceToProduce": 1,
+      "produces": [
+        {
+          "name": "Test Cycle",
+          "intervalSeconds": 5370,
+          "itemSelectMode": 0,
+          "items": [
+            {
+              "bpPath": "/Game/PrimalEarth/CoreBlueprints/Resources/PrimalItemResource_Chitin.PrimalItemResource_Chitin",
+              "quantityPerDino": 10,
+              "maxQuantityPerCycle": 0,
+              "maxQuantityInTerminal": 0,
+              "alternateSelectMode": 0,
+              "alternateItemsChance": 0,
+              "alternateItems": [],
+              "consumesSelectMode": 0,
+              "consumesItemsChance": 0,
+              "consumesItems": []
+            }
+          ]
+        }
+      ]
     }
   ]
 }
