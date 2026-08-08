@@ -1,12 +1,13 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-03T19:09:07.269Z",
+  "generatedAt": "2026-08-08T02:25:58.707Z",
   "players": [
     {
       "discordName": "qwerty",
       "discordId": "",
       "steamName": "",
       "steamId": "",
+      "accountName": "",
       "gameName": "qwerty",
       "playerId": "1234567",
       "eosId": "",
@@ -14,6 +15,1326 @@
       "profile": {
         "map": "Aberration",
         "storedAt": "2026-08-03T19:08:49.277Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Gavelin",
+      "gameName": "Han Solo",
+      "playerId": "45376756",
+      "eosId": "0002f0dad59f4bffa4c89499c88d0313",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.687Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "xxwhiteyxx4",
+      "gameName": "Dirty Dan",
+      "playerId": "361193702",
+      "eosId": "00020e8e21a84d9ab2a669de6a95594e",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.695Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "NivilCEO",
+      "gameName": "Savior",
+      "playerId": "902805206",
+      "eosId": "0002fc4f215a42a0b44806eb0884a5df",
+      "notes": "",
+      "profile": {
+        "map": "Extinction",
+        "storedAt": "2026-08-05T21:42:54.560Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "mercat245",
+      "gameName": "Bubba",
+      "playerId": "459041041",
+      "eosId": "0002adb35d1645638056d0ec0cc91ee5",
+      "notes": "",
+      "profile": {
+        "map": "Extinction",
+        "storedAt": "2026-08-05T21:42:54.546Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Silvanatrix",
+      "gameName": "Silv",
+      "playerId": "705480020",
+      "eosId": "0002bd4623054b7391994b8a2d3303d5",
+      "notes": "",
+      "profile": {
+        "map": "Extinction",
+        "storedAt": "2026-08-05T21:42:54.549Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "RiriaInk",
+      "gameName": "Luna",
+      "playerId": "428308380",
+      "eosId": "0002ce8e2cf7467388fd7e2c5722e922",
+      "notes": "",
+      "profile": {
+        "map": "Extinction",
+        "storedAt": "2026-08-05T21:42:54.553Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "UltraRaptor115",
+      "gameName": "Ripper",
+      "playerId": "403940346",
+      "eosId": "00021f7e5e28455294aca85960c0b365",
+      "notes": "",
+      "profile": {
+        "map": "Extinction",
+        "storedAt": "2026-08-05T21:42:54.563Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "BinaryHelix",
+      "gameName": "Binary",
+      "playerId": "130295366",
+      "eosId": "00022f7797564ff98a5af4a00ec05431",
+      "notes": "",
+      "profile": {
+        "map": "Extinction",
+        "storedAt": "2026-08-05T21:42:54.569Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Suddz Tryz",
+      "gameName": "Suddz",
+      "playerId": "388374270",
+      "eosId": "00026b6765564fa99c09f0a712f062eb",
+      "notes": "",
+      "profile": {
+        "map": "Extinction",
+        "storedAt": "2026-08-05T21:42:54.573Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "BuniBat",
+      "gameName": "Buni",
+      "playerId": "363124829",
+      "eosId": "00028d192ef84279b56456f29cf81065",
+      "notes": "",
+      "profile": {
+        "map": "Extinction",
+        "storedAt": "2026-08-05T21:42:54.576Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Blu3Halo723",
+      "gameName": "Blu3",
+      "playerId": "42250491",
+      "eosId": "000226a20402449293c14a98eb8330e9",
+      "notes": "",
+      "profile": {
+        "map": "Extinction",
+        "storedAt": "2026-08-05T21:42:54.578Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "kirby",
+      "gameName": "KIRBY",
+      "playerId": "632467116",
+      "eosId": "0002a2d04cdd44a589963a13eac9067c",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.630Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Bood33Bandit",
+      "gameName": "Perc300",
+      "playerId": "385252089",
+      "eosId": "0002a001761f490dbf7db6790d09961c",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.633Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "SoulFire",
+      "gameName": "SoulFire",
+      "playerId": "508707662",
+      "eosId": "0002aa8b58a4452cbb948684a275d555",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.636Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "CardinalCastle9",
+      "gameName": "Akaska",
+      "playerId": "200595159",
+      "eosId": "0002aff49fec4b9699ce07a183c74d42",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.639Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Nataku",
+      "gameName": "Nataku",
+      "playerId": "59651240",
+      "eosId": "0002b7d9c91443c88eaec1d893c2be15",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.642Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "GrayV",
+      "gameName": "GrayV",
+      "playerId": "823504373",
+      "eosId": "0002b061f578470592960657c6e4e988",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.647Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Dragongamer",
+      "gameName": "Tomaso",
+      "playerId": "322440929",
+      "eosId": "0002b84775ad4107855ea3acc20b5be0",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.652Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Kenta Volkov",
+      "gameName": "Cerberus",
+      "playerId": "979268731",
+      "eosId": "0002b337499f4b429b115ef4ad2ae649",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.656Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Nefartious",
+      "gameName": "Nefartious",
+      "playerId": "648760958",
+      "eosId": "0002bcd5ba36481892b97ca5b3742950",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.658Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "AkumaBl00d",
+      "gameName": "Human",
+      "playerId": "931165423",
+      "eosId": "0002c7e17d1749729caefd02bbb4f0cd",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.663Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "RCD_hectorcito23",
+      "gameName": "Leonardo tres pistolas",
+      "playerId": "376103434",
+      "eosId": "0002c31b982d4cb6b9ce9b5be1ff2bcd",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.666Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Kotzilla58",
+      "gameName": "Thierry",
+      "playerId": "810364168",
+      "eosId": "0002cc6b8ab7409ea78ea17d2e6effed",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.668Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "FossilizedTitan",
+      "gameName": "Anubis",
+      "playerId": "595779826",
+      "eosId": "0002d571d6624a8ca26e0849cf202a8d",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.670Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "PsyTox",
+      "gameName": "Mensch",
+      "playerId": "714647886",
+      "eosId": "0002e6d3f5ad44e7b647096c81b3a310",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.672Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Zenchi",
+      "gameName": "Zenchi",
+      "playerId": "33080573",
+      "eosId": "0002e042f4674e1db4a2f4b5ee98e52d",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.675Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Dacisner0109",
+      "gameName": "Humano",
+      "playerId": "354733768",
+      "eosId": "0002ed1d9f3d41aa84c4a2454d78c82c",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.678Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Wran",
+      "gameName": "Wran",
+      "playerId": "658387401",
+      "eosId": "0002edbd3910400293d29b698809c34f",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.681Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "CDogg666",
+      "gameName": "Depravity",
+      "playerId": "28562117",
+      "eosId": "0002eec3c96c45ca9c074d794fadfb03",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.684Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Helgi_Elgi",
+      "gameName": "мамба",
+      "playerId": "25623554",
+      "eosId": "0002fccb520640c193072804fbf5fd75",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.689Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "MellowWall4",
+      "gameName": "Fergus",
+      "playerId": "385721458",
+      "eosId": "00021a7f69e54da6b7235a8e47903b8c",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.697Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Playerkingalex18",
+      "gameName": "ATLANTIS2",
+      "playerId": "893351795",
+      "eosId": "00021c1d84e047008a338d29c6926e1a",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.700Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "붉은별이",
+      "gameName": "evi",
+      "playerId": "224409391",
+      "eosId": "00021e2b90be4724b4fc7fa15fa82ed1",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.702Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "BrittSki420",
+      "gameName": "Bee",
+      "playerId": "437353760",
+      "eosId": "00022a93d78840a18c887745e781b27f",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.707Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Bot753_XD_",
+      "gameName": "Indigena Peruano",
+      "playerId": "898197965",
+      "eosId": "00025df2d4b44c59a8dc461b0a374062",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.713Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Quible",
+      "gameName": "Jackalope",
+      "playerId": "988394943",
+      "eosId": "00026a883dde420f9e65423f0229539c",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.717Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "logo",
+      "gameName": "logo",
+      "playerId": "402785729",
+      "eosId": "00026ea6b2304f389f05a25b80b6f6c6",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.726Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "hisPrincess0682",
+      "gameName": "Nxx",
+      "playerId": "237633794",
+      "eosId": "00027ac1ea0a4e8cb8fb17536baf40e9",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.728Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "tomjoe2k8",
+      "gameName": "Ceaser",
+      "playerId": "472579398",
+      "eosId": "00027ae77f714ba78d68f48b71865dc6",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.730Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Gracedawnknight",
+      "gameName": "Grace",
+      "playerId": "503435144",
+      "eosId": "000218a460b54f5ba64fad14a81a9424",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.735Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "i-ARxZyy",
+      "gameName": "HLNA",
+      "playerId": "37470570",
+      "eosId": "000220de24dd4c8390c3b32460390395",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.737Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "dukenukem24680",
+      "gameName": "Gunther",
+      "playerId": "934167583",
+      "eosId": "000221b8dac2416c8fe7d9de8eaa6202",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.741Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Loki",
+      "gameName": "Loki",
+      "playerId": "452321049",
+      "eosId": "000234fdd3a84b87abbb4265ab230dbb",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.744Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "ADawg1919",
+      "gameName": "Awdog772",
+      "playerId": "147750105",
+      "eosId": "000243f3549b4902888ada6151e4082c",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.746Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "anarchy_art",
+      "gameName": "Aberrant",
+      "playerId": "300629581",
+      "eosId": "000248cc399649ef9e7d97969fe01a99",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.750Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "dbfoote",
+      "gameName": "Jordan",
+      "playerId": "893330745",
+      "eosId": "000253d3838a484a9205ef554b4cae49",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.752Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "GeneralSan",
+      "gameName": "Max",
+      "playerId": "933675881",
+      "eosId": "000260de1f3145a7a6f3950a6eda9e9a",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.754Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "STG_hallboy2010",
+      "gameName": "Toji",
+      "playerId": "159707144",
+      "eosId": "000269e0ab2849b59952f4f8c0c08871",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.761Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Kevin HDZC",
+      "gameName": "SALCHIPAPA",
+      "playerId": "415229322",
+      "eosId": "000289f08056427b905e54a20abbd1e0",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.763Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Wacky Gamer 01",
+      "gameName": "Tom",
+      "playerId": "727413752",
+      "eosId": "000294ff98da4f8a841f8e06dc80efe9",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.765Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Kotzilla58",
+      "gameName": "Kotzilla",
+      "playerId": "810987347",
+      "eosId": "000297fcaba54fa9af38236bca2baf13",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.770Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "XXISTEVENIXX494",
+      "gameName": "BUZZ",
+      "playerId": "137316473",
+      "eosId": "000298be320a479abe9fb46937ad7393",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.772Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Fowlplay",
+      "gameName": "Legs",
+      "playerId": "253738761",
+      "eosId": "0002216f56cf42efa09b7679e4bc75df",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.776Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Project AZ27",
+      "gameName": "Neeks",
+      "playerId": "876850603",
+      "eosId": "0002612ae2a64b9e9329f6794a034b0b",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.778Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Parkus Maximus",
+      "gameName": "Parkus",
+      "playerId": "753110621",
+      "eosId": "0002713e699d4eb0b126f44af61f0d1b",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.780Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "JustJess",
+      "gameName": "Jessy",
+      "playerId": "617873316",
+      "eosId": "0002806af19c403abb41b31af0d4fc0a",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.786Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "WCR_Empress",
+      "gameName": "Pompeii",
+      "playerId": "339282777",
+      "eosId": "0002969ed6d441d3b4f831ef5d9abb5a",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.789Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Dano",
+      "gameName": "Dano",
+      "playerId": "934369930",
+      "eosId": "00021387c3cc42f9ba20c0e23977ee70",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.792Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Kritbound",
+      "gameName": "Orthrus",
+      "playerId": "952481157",
+      "eosId": "00022651ac754f809568e19f185d626c",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.795Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "EvilBunneh",
+      "gameName": "Scar",
+      "playerId": "745995788",
+      "eosId": "000243203f524ee188276c8d42ffcead",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.798Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Scarr",
+      "gameName": "Scarr",
+      "playerId": "61878927",
+      "eosId": "00025727367b4203bc1a287333b8d4ca",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.803Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "gaholick08",
+      "gameName": "Human",
+      "playerId": "662411234",
+      "eosId": "0002a363e53348b8a79c957ca35e65ab",
+      "notes": "",
+      "profile": {
+        "map": "Lost Colony",
+        "storedAt": "2026-08-05T21:37:07.707Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Rissaruni",
+      "gameName": "Rissa",
+      "playerId": "808613755",
+      "eosId": "0002c1c56b0a474ea0787c72f83e73c0",
+      "notes": "",
+      "profile": {
+        "map": "Lost Colony",
+        "storedAt": "2026-08-05T21:37:07.715Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Palicoes",
+      "gameName": "Shaquanda",
+      "playerId": "246740940",
+      "eosId": "0002c1eae826484b8e024e5e8b7a5ebf",
+      "notes": "",
+      "profile": {
+        "map": "Lost Colony",
+        "storedAt": "2026-08-05T21:37:07.718Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "LilLeechy",
+      "gameName": "Ronnie McNut",
+      "playerId": "69115432",
+      "eosId": "0002cab9cdc74d67b28c7cd6a1c94920",
+      "notes": "",
+      "profile": {
+        "map": "Lost Colony",
+        "storedAt": "2026-08-05T21:37:07.727Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Reaper_4G",
+      "gameName": "Apache",
+      "playerId": "527578465",
+      "eosId": "0002d8c187304545b2728a07bbddf2d2",
+      "notes": "",
+      "profile": {
+        "map": "Lost Colony",
+        "storedAt": "2026-08-05T21:37:07.730Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Ragemaker",
+      "gameName": "Ragemaker",
+      "playerId": "971066201",
+      "eosId": "0002db8ab26e44e4a59bbcdfb7274719",
+      "notes": "",
+      "profile": {
+        "map": "Lost Colony",
+        "storedAt": "2026-08-05T21:37:07.735Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Kid D.",
+      "gameName": "KidD",
+      "playerId": "58878625",
+      "eosId": "0002e4b7a5804d2898fc8a0154ecd927",
+      "notes": "",
+      "profile": {
+        "map": "Lost Colony",
+        "storedAt": "2026-08-05T21:37:07.741Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Stagdas",
+      "gameName": "Shorty",
+      "playerId": "529137438",
+      "eosId": "0002e75505c648dfaad923800914f4f8",
+      "notes": "",
+      "profile": {
+        "map": "Lost Colony",
+        "storedAt": "2026-08-05T21:37:07.753Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "zeronekox",
+      "gameName": "Zero",
+      "playerId": "741875386",
+      "eosId": "0002ec8069184c3c996b7052dbf39e75",
+      "notes": "",
+      "profile": {
+        "map": "Lost Colony",
+        "storedAt": "2026-08-05T21:37:07.761Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Dancekat",
+      "gameName": "Kat",
+      "playerId": "205297676",
+      "eosId": "0002f65e8d8d42888ac58cb4f9ac2939",
+      "notes": "",
+      "profile": {
+        "map": "Lost Colony",
+        "storedAt": "2026-08-05T21:37:07.767Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "dominatornw2004-",
+      "gameName": "Dom",
+      "playerId": "508556736",
+      "eosId": "0002ff37a22c4d128fff98ca1e607f7e",
+      "notes": "",
+      "profile": {
+        "map": "Lost Colony",
+        "storedAt": "2026-08-05T21:37:07.770Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Filly",
+      "gameName": "Filly",
+      "playerId": "691518478",
+      "eosId": "00020aaea4f44de8a6243fa0923f4f98",
+      "notes": "",
+      "profile": {
+        "map": "Lost Colony",
+        "storedAt": "2026-08-05T21:37:07.773Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "CyrusBW04",
+      "gameName": "Cyrus",
+      "playerId": "471057687",
+      "eosId": "00020d1371cc462f877a256757ddccd8",
+      "notes": "",
+      "profile": {
+        "map": "Lost Colony",
+        "storedAt": "2026-08-05T21:37:07.776Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "tjpreece60",
+      "gameName": "Chimera",
+      "playerId": "425908287",
+      "eosId": "00024f9f519e44eca1931f15e7609f16",
+      "notes": "",
+      "profile": {
+        "map": "Lost Colony",
+        "storedAt": "2026-08-05T21:37:07.778Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Atlantis_Checo",
+      "gameName": "Checo",
+      "playerId": "11947584",
+      "eosId": "00026fc02b7043c299fb539262965e85",
+      "notes": "",
+      "profile": {
+        "map": "Lost Colony",
+        "storedAt": "2026-08-05T21:37:07.781Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Goblin_Slayer240",
+      "gameName": "Olivia",
+      "playerId": "242533477",
+      "eosId": "000226fe13324746895d8ff488f5f38b",
+      "notes": "",
+      "profile": {
+        "map": "Lost Colony",
+        "storedAt": "2026-08-05T21:37:07.784Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Primarch_hanma",
+      "gameName": "PrimarchHanma",
+      "playerId": "639184639",
+      "eosId": "000243c3aa344dc7aa0a1ef74d612596",
+      "notes": "",
+      "profile": {
+        "map": "Lost Colony",
+        "storedAt": "2026-08-05T21:37:07.788Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Coletrain",
+      "gameName": "Luigi",
+      "playerId": "587728604",
+      "eosId": "000240525bbf4dd3b816bfb6b8bd9e88",
+      "notes": "",
+      "profile": {
+        "map": "Lost Colony",
+        "storedAt": "2026-08-05T21:37:07.791Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Frostchild",
+      "gameName": "Frost",
+      "playerId": "721180344",
+      "eosId": "000284674b0a41129a650760ac89d32b",
+      "notes": "",
+      "profile": {
+        "map": "Lost Colony",
+        "storedAt": "2026-08-05T21:37:07.795Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Deadshot362436",
+      "gameName": "Human",
+      "playerId": "820507343",
+      "eosId": "0002fe299c444a88bff8ec35cc8b2898",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.692Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "TheOgVelonia",
+      "gameName": "Human",
+      "playerId": "89213747",
+      "eosId": "00021e5a392740b7a5d86dd8685b8bf4",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.705Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Killamicah23",
+      "gameName": "Human",
+      "playerId": "861323358",
+      "eosId": "00023fde9980486b8cd6377aa7017d81",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.709Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Thirty7fatkidz",
+      "gameName": "Human",
+      "playerId": "892254125",
+      "eosId": "00024f85795c4ea090626f25f58ed30a",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.711Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "Keso2015",
+      "gameName": "Human",
+      "playerId": "248371919",
+      "eosId": "00026dbf8ade40ec80a732a42b4ca976",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.720Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "MBGZ-2",
+      "gameName": "Buni",
+      "playerId": "871846674",
+      "eosId": "000264b8a08c4f8ba5155333d58c3596",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.758Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "super_coop35",
+      "gameName": "Human",
+      "playerId": "595942245",
+      "eosId": "000296ad905646f6881c921eae57183c",
+      "notes": "",
+      "profile": {
+        "map": "Scorched Earth",
+        "storedAt": "2026-08-05T21:43:38.768Z"
+      }
+    },
+    {
+      "discordName": "",
+      "discordId": "",
+      "steamName": "",
+      "steamId": "",
+      "accountName": "CaotcAftermth",
+      "gameName": "Human",
+      "playerId": "597079660",
+      "eosId": "0002534d2ce649d39c168745fa38c3b7",
+      "notes": "",
+      "profile": {
+        "map": "The Island",
+        "storedAt": "2026-08-06T00:15:01.149Z"
       }
     }
   ]
