@@ -713,7 +713,7 @@
           ]
         },
         {
-          "name": "",
+          "name": "TestCycle2",
           "interval": 84600,
           "mode": "All",
           "items": [
